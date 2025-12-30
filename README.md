@@ -28,7 +28,7 @@ The goal of this practice is to build a strong foundation in **core Java OOP pri
 - **StudentsGrades** – Grade management system  
 
 🔗 **Code Link:**  
-👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept
 
 ---
 
@@ -42,7 +42,7 @@ The goal of this practice is to build a strong foundation in **core Java OOP pri
 - Encapsulation using getters and setters  
 
 🔗 **Code Link:**  
-👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/constructor
 
 ---
 
@@ -55,7 +55,7 @@ The goal of this practice is to build a strong foundation in **core Java OOP pri
 - `this` keyword to reference the current object  
 
 🔗 **Code Link:**  
-👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com
 
 ---
 
