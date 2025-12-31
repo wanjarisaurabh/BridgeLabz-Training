@@ -11,14 +11,14 @@ class Book1 {
     double price;
 
     // Default constructor to initialize default values
-    Book() {
+    Book1() {
         title = "Unknown";
         author = "Unknown";
         price = 0.0;
     }
 
     // Parameterized constructor to initialize user-defined values
-    Book(String title, String author, double price) {
+    Book1(String title, String author, double price) {
         this.title = title;
         this.author = author;
         this.price = price;
@@ -31,3 +31,5 @@ class Book1 {
         System.out.println("Price  : ₹" + price);
     }
 }
+
+
