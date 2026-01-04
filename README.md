@@ -6,56 +6,92 @@ The goal of this practice is to build a strong foundation in **core Java OOP pri
 
 ---
 
-## 📅 Day 1 – Introduction to OOP & Basic Concepts  
-**Date:** 26-Dec-2025
+## 📘 Week 2: Object-Oriented Programming (OOP)
 
-### Concepts Covered
-- Classes and Objects fundamentals  
-- Constructors and instance variables  
-- Methods and encapsulation basics  
-- Practiced OOP concepts using real-world scenarios  
-
-### Programs Completed
-- **Book** – Library management  
-- **Circle** – Geometry calculations  
-- **Employee** – Employee management  
-- **Item** – Inventory system  
-- **MobilePhone** – Device specifications  
-- **BankAccount** – Banking operations  
-- **CartItem** – Shopping cart management  
-- **MovieTicket** – Ticket booking system  
-- **PalindromeChecker** – String manipulation using OOP  
-- **StudentsGrades** – Grade management system  
+### 🔹 Day 1: Classes, Objects & Eclipse Setup
+- Packages, classes, objects  
+- Eclipse IDE setup  
+- Git branch creation (`java-oops-practice`)  
 
 🔗 **Code Link:**  
-👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/classandobject
 
 ---
 
-## 📅 Day 2 – Constructors & Access Modifiers  
-**Date:** 27-Dec-2025
-
-### Concepts Covered
-- Constructor types (default, parameterized, copy)  
-- Constructor overloading  
-- Access modifiers (public, private, protected, default)  
-- Encapsulation using getters and setters  
+### 🔹 Day 2: Constructors & Access Modifiers
+**Programs Implemented**
+- Book Library System  
+- Bank Account Management  
+- Employee Records  
+- Vehicle Registration  
+- Online Course Management  
 
 🔗 **Code Link:**  
 👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/constructor
 
 ---
 
-## 📅 Day 3 – Final, Static & this Keyword  
-**Date:** 29-Dec-2025
+### 🔹 Day 3: this, static, final & instanceof
+- Object behavior & memory sharing  
+- Scenario-based practice  
+- Eclipse debugging  
 
-### Concepts Covered
-- `final` keyword usage with variables, methods, and classes  
-- `static` keyword for variables and methods  
-- `this` keyword to reference the current object  
+🔗 **OOP Keywords Practice:**  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/javakeywords
 
-🔗 **Code Link:**  
-👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com
+🔗 **Scenario-Based Problems:**  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/core-java-practice/scenerio-based
 
 ---
 
+### 🔹 Day 4: Object Modeling & Relationships
+- Aggregation  
+- Association  
+- Composition  
+
+🔗 **Code Link:**  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/objectmodeling
+
+---
+
+### 🔹 Day 5: Inheritance & Polymorphism
+- Single, Multilevel, Hierarchical inheritance  
+- Hybrid inheritance using interfaces  
+
+🔗 **Code Link:**  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inheritance
+
+---
+
+### 🔹 Day 6: Encapsulation, Abstract Classes & Interfaces
+**Systems Implemented**
+- Employee Management System  
+- E-Commerce Platform  
+- Vehicle Rental System  
+- Banking System  
+- Library Management System  
+- Hospital Management System  
+- Ride-Hailing Application  
+
+🔗 **Code Link:**  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/encapsulationandpolymorphism
+
+---
+
+## 🛠 Tools & Technologies
+- Java (Core + OOP)  
+- Eclipse IDE  
+- Git & GitHub  
+
+---
+
+## ✅ Best Practices Followed
+- Clean, readable, and modular code  
+- Java naming conventions  
+- Proper use of OOP principles  
+- Meaningful Git commits  
+- Branch-based learning workflow  
+
+---
+
+📌 **This repository reflects my hands-on practice, problem-solving skills, and structured learning approach in Java.**
