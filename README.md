@@ -10,16 +10,32 @@ This repository documents my **day-wise learning, hands-on practice, and code su
 
 ```text
 BridgeLabz-Training/
-├── gcr-codebase/
-│   ├── arrays/
-│   ├── control-flows/
-│   ├── extras/
-│   ├── java-methods/
-│   ├── program-prerequisites/
-│   ├── programming-elements/
-│   └── strings/
-├── leet-code-codebase/
-├── scenario-based/
+│
+├── core-java-practice/
+│ ├── gcr-codebase/
+│ │ ├── arrays/
+│ │ ├── builtin-functions/
+│ │ ├── control-flows/
+│ │ ├── java-methods/
+│ │ ├── programming-elements/
+│ │ ├── java-strings/
+│ │ └── extra-questions/
+│ │
+│ ├── leet-code-codebase/
+│ └── scenerio-based/
+│
+├── java-oops-practice/
+│ └── gcr-codebase/
+│ └── JavaOopsConcept/
+│ └── src/
+│ └── com/
+│ ├── classandobject/
+│ ├── javaconstructors/
+│ ├── inbuiltfunction/
+│ ├── objectmodeling/
+│ ├── inheritance/
+│ └── encapsulationandpolymorphism/
+│
 └── README.md
 ```
 
@@ -171,59 +187,92 @@ BridgeLabz-Training/
 
 ---
 
-# 📗 Week 2: Object-Oriented Programming (OOP) in Java
+## 📘 Week 2: Object-Oriented Programming (OOP)
 
-> ⚠️ **Note:** Core Java practice continues in parallel with OOP learning from **26-Dec-2025**
-
----
-
-## 📅 Day 1 – OOP Fundamentals  
-**Date:** 26-Dec-2025  
-
-### 🔹 Concepts Covered
-- Classes & Objects
-- Real-world modeling using Java classes
-
-### 🔹 Programs Completed
-- Book
-- Circle
-- Employee
-- Item
-- MobilePhone
-- BankAccount
-- CartItem
-- MovieTicket
-- PalindromeChecker
-- StudentsGrades
+### 🔹 Day 1: Classes, Objects & Eclipse Setup
+- Packages, classes, objects  
+- Eclipse IDE setup  
+- Git branch creation (`java-oops-practice`)  
 
 🔗 **Code Link:**  
-👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/classandobject
 
 ---
 
-## 📅 Day 2 – Constructors & Access Modifiers  
-**Date:** 27-Dec-2025  
-
-### 🔹 Concepts Covered
-- Default, Parameterized & Copy constructors
-- Constructor overloading
-- Access modifiers
-- Encapsulation (getters & setters)
+### 🔹 Day 2: Constructors & Access Modifiers
+**Programs Implemented**
+- Book Library System  
+- Bank Account Management  
+- Employee Records  
+- Vehicle Registration  
+- Online Course Management  
 
 🔗 **Code Link:**  
-👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/constructor
 
 ---
 
-## 📁 OOP Repository Structure
+### 🔹 Day 3: this, static, final & instanceof
+- Object behavior & memory sharing  
+- Scenario-based practice  
+- Eclipse debugging  
 
-```text
-java-oops-practice/
-├── gcr-codebase/
-│ └── JavaOopsConcepts/
-│ └── src/
-│ └── com/
-├── leet-codebase/
-├── scenario-based-questions/
-└── README.md
-```
+🔗 **OOP Keywords Practice:**  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/javakeywords
+
+🔗 **Scenario-Based Problems:**  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/core-java-practice/scenerio-based
+
+---
+
+### 🔹 Day 4: Object Modeling & Relationships
+- Aggregation  
+- Association  
+- Composition  
+
+🔗 **Code Link:**  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/objectmodeling
+
+---
+
+### 🔹 Day 5: Inheritance & Polymorphism
+- Single, Multilevel, Hierarchical inheritance  
+- Hybrid inheritance using interfaces  
+
+🔗 **Code Link:**  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inheritance
+
+---
+
+### 🔹 Day 6: Encapsulation, Abstract Classes & Interfaces
+**Systems Implemented**
+- Employee Management System  
+- E-Commerce Platform  
+- Vehicle Rental System  
+- Banking System  
+- Library Management System  
+- Hospital Management System  
+- Ride-Hailing Application  
+
+🔗 **Code Link:**  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/encapsulationandpolymorphism
+
+---
+
+## 🛠 Tools & Technologies
+- Java (Core + OOP)  
+- Eclipse IDE  
+- Git & GitHub  
+
+---
+
+## ✅ Best Practices Followed
+- Clean, readable, and modular code  
+- Java naming conventions  
+- Proper use of OOP principles  
+- Meaningful Git commits  
+- Branch-based learning workflow  
+
+---
+
+📌 **This repository reflects my hands-on practice, problem-solving skills, and structured learning approach in Java.**
