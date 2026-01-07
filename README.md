@@ -263,16 +263,12 @@ BridgeLabz-Training/
 - Java (Core + OOP)  
 - Eclipse IDE  
 - Git & GitHub  
-
 ---
-
 ## ✅ Best Practices Followed
 - Clean, readable, and modular code  
 - Java naming conventions  
 - Proper use of OOP principles  
 - Meaningful Git commits  
 - Branch-based learning workflow  
-
 ---
-
 📌 **This repository reflects my hands-on practice, problem-solving skills, and structured learning approach in Java.**
