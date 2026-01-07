@@ -330,25 +330,25 @@ Each day includes **concepts, scenario-based applications, and hands-on implemen
 **Problems Solved:**
 
 1. **Bubble Sort – Student Marks**  
-   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/dsaPractice/src/com/sorting/BubbleSortStudentMarks.java  
+   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/sorting
 
 2. **Insertion Sort – Employee IDs**  
-   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/dsaPractice/src/com/sorting/InsertionSortEmployeeIDs.java  
+   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/sorting/InsertionSortEmployeeIDs.java  
 
 3. **Merge Sort – Book Prices**  
-   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/dsaPractice/src/com/sorting/MergeSortBookPrices.java  
+   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/sorting/MergeSortBookPrices.java  
 
 4. **Quick Sort – Product Prices**  
-   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/dsaPractice/src/com/sorting/QuickSortProductPrices.java  
+   👉https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/sorting/QuickSortProductPrices.java  
 
 5. **Selection Sort – Exam Scores**  
-   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/dsaPractice/src/com/sorting/SelectionSortExamScores.java  
+   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/sorting/SelectionSortExamScores.java  
 
 6. **Heap Sort – Job Applicant Salaries**  
-   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/dsaPractice/src/com/sorting/HeapSortSalary.java  
+   👉https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/sorting/HeapSortSalary.java  
 
 7. **Counting Sort – Student Ages**  
-   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/dsaPractice/src/com/sorting/CountingSortStudentAges.java  
+   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/sorting/CountingSortStudentAges.java  
 
 ---
 
