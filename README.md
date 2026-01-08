@@ -54,8 +54,50 @@ Each day includes **concepts, scenario-based applications, and hands-on implemen
 - **FitTrack** – Fitness Tracking System  
 
 
+---
+
+
+**Sorting Techniques**
+
+**Topics Covered:**
+- Bubble Sort, Insertion Sort, Selection Sort
+- Merge Sort, Quick Sort, Heap Sort
+- Counting Sort
+- Time and space complexity analysis
+
+**Problems Solved:**
+
+1. **Bubble Sort – Student Marks**  
+   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/sorting
+
+2. **Insertion Sort – Employee IDs**  
+   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/sorting/InsertionSortEmployeeIDs.java  
+
+3. **Merge Sort – Book Prices**  
+   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/sorting/MergeSortBookPrices.java  
+
+4. **Quick Sort – Product Prices**  
+   👉https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/sorting/QuickSortProductPrices.java  
+
+5. **Selection Sort – Exam Scores**  
+   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/sorting/SelectionSortExamScores.java  
+
+6. **Heap Sort – Job Applicant Salaries**  
+   👉https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/sorting/HeapSortSalary.java  
+
+7. **Counting Sort – Student Ages**  
+   👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/sorting/CountingSortStudentAges.java  
 
 ---
+
+## Day 4 (07-Jan-2026): String Operations, File I/O, Search Algorithms & OOP Practice
+
+🔗 **Code Links:**  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/dsaPractice/src/com/linearandbinary/stringbufferfilereader  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/dsaPractice/src/com/linearandbinary  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/bookbazaar  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/parkease  
+
 
 ## 🛠️ Technologies Used
 - Java  
