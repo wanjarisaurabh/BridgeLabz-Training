@@ -11,32 +11,62 @@ This repository documents my **day-wise learning, hands-on practice, and code su
 ```text
 BridgeLabz-Training/
 │
-├── core-java-practice/
-│ ├── gcr-codebase/
-│ │ ├── arrays/
-│ │ ├── builtin-functions/
-│ │ ├── control-flows/
-│ │ ├── java-methods/
-│ │ ├── programming-elements/
-│ │ ├── java-strings/
-│ │ └── extra-questions/
-│ │
-│ ├── leet-code-codebase/
-│ └── scenerio-based/
+├── core-java-practice/                (Branch: core-java-practice)
+│   │
+│   ├── gcr-codebase/
+│   │   ├── programming-elements/
+│   │   ├── control-flows/
+│   │   ├── arrays/
+│   │   ├── java-strings/
+│   │   ├── java-methods/
+│   │   ├── builtin-functions/
+│   │   └── extra-questions/
+│   │
+│   ├── leet-code-codebase/
+│   │   
+│   ├── scenario-based/
+│   │  
+│   ├── .gitignore
+│   └── README.md
 │
-├── java-oops-practice/
-│ └── gcr-codebase/
-│ └── JavaOopsConcept/
-│ └── src/
-│ └── com/
-│ ├── classandobject/
-│ ├── javaconstructors/
-│ ├── inbuiltfunction/
-│ ├── objectmodeling/
-│ ├── inheritance/
-│ └── encapsulationandpolymorphism/
+├── java-oops-practice/                (Branch: java-oops-practice)
+│   │
+│   ├── gcr-codebase/
+│   │   └── JavaOopsConcept/
+│   │       └── src/
+│   │           └── com/
+│   │               ├── classandobject/
+│   │               ├── javaconstructors/
+│   │               ├── inbuiltfunction/
+│   │               ├── objectmodeling/
+│   │               ├── inheritance/
+│   │               ├── encapsulationandpolymorphism/
+│   │               └── abstractionandinterface/
+│   │
+│   ├── scenario-based/
+│   │  
+│   ├── .gitignore
+│   └── README.md
 │
-└── README.md
+├── java-dsa-practice/                 (Branch: java-dsa-practice)
+│   │
+│   ├── dsa-practice/
+│   │   ├── gcr-codebase/
+│   │   │   └── JavaDsaConcepts/
+│   │   │       └── src/
+│   │   │           └── com/
+│   │   │               ├── arrays/
+│   │   │               ├── linkedlist/
+│   │   │               ├── stack/
+│   │   │               ├── queue/
+│   │   │               └── hashmap/
+│   │   │
+│   │   └── scenario-based/
+│   ├── .gitignore
+│   └── README.md
+│
+└── README.md                          (Main overview – default branch)
+
 ```
 
 ---
@@ -333,7 +363,7 @@ A doubly linked list is a data structure in which each node contains data, a ref
 - Requires additional memory due to extra pointer
 
 **Code Link:**  
-👉https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/linkedlist/doublylinkedlist
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/linkedlist/doublylinkedlist
 
 ### 3. Circular Linked List
 
@@ -348,7 +378,7 @@ A circular linked list is a linked list where the last node points back to the f
 
 **Code Link:**  
 👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/linkedlist/circularlinkedlist
----
+
 
 ### 4. Helper Methods & Modular Design
 
@@ -369,7 +399,7 @@ Modular design is a programming approach that divides complex logic into smaller
 
 **Code Link:**  
 👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/stackqueuehashmap
----
+
 
 ### 1. Stack
 
@@ -582,7 +612,7 @@ This session focuses on analyzing and comparing the **runtime performance of alg
 
 **Code Link:**  
 👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/gcr-codebase/JavaDsaConcepts/src/com/algoruntimeanalysis
----
+
 
 ### 1. Linear Search vs Binary Search
 
@@ -663,5 +693,165 @@ Comparison of search efficiency across different data structures.
 
 
 ---
+
+## Day 6 (10-Jan-2026): Scenario-Based DSA Applications
+
+This day focuses on implementing **real-world applications using Data Structures** in Java.  
+Each scenario is mapped to a suitable data structure to strengthen problem-solving skills.
+
+---
+
+### 📌 Topics Covered
+- Real-world data structure implementations
+- HashMap + LinkedList combination
+- Doubly LinkedList + Stack for navigation
+- Queue-based systems
+- Circular LinkedList for round-robin scheduling
+
+---
+
+## 📂 Scenario-Based Projects Implemented
+
+**Base Path:**  
+`dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/`
+
+---
+
+### 1️⃣ BookShelf – Library Organizer System
+**Data Structures Used:** HashMap + LinkedList  
+**Location:**  
+📁 `bookshelf`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/bookshelf
+
+**Description:**
+A library management system that organizes books genre-wise and maintains order dynamically.
+
+**Key Features:**
+- Genre-wise book storage using HashMap
+- Dynamic insertion and deletion using LinkedList
+- Book search and display functionality
+- Efficient catalog management
+
+---
+
+### 2️⃣ BrowserBuddy – Browser History Manager
+**Data Structures Used:** Doubly LinkedList + Stack  
+**Location:**  
+📁 `browserbuddy`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/browserbuddy
+
+**Description:**
+Simulates browser navigation and closed-tab recovery.
+
+**Key Features:**
+- Back and forward navigation (Doubly LinkedList)
+- Closed tab tracking using Stack (LIFO)
+- Reopen recently closed tabs
+- Efficient memory usage
+
+---
+
+### 3️⃣ AmbulanceRoute – Emergency Navigation System
+**Data Structures Used:** Circular LinkedList  
+**Location:**  
+📁 `ambulanceroute`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/ambulanceroute
+
+**Description:**
+Manages emergency routing between hospital units using circular traversal.
+
+**Key Features:**
+- Circular hospital unit routing
+- Continuous patient flow handling
+- Dynamic unit availability
+- Round-robin traversal logic
+
+---
+
+### 4️⃣ CallCenter – Customer Call Management
+**Data Structures Used:** Queue  
+**Location:**  
+📁 `callcenter`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/callcenter
+
+**Description:**
+Simulates a call center where customer calls are handled in FIFO order.
+
+**Key Features:**
+- Call enqueue and dequeue operations
+- FIFO-based customer handling
+- Real-time queue simulation
+
+---
+
+### 5️⃣ TextEditor – Undo/Redo System
+**Data Structures Used:** Stack  
+**Location:**  
+📁 `texteditor`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/texteditor
+
+**Description:**
+Implements basic text editor operations with undo and redo functionality.
+
+**Key Features:**
+- Undo operation using Stack
+- Redo operation using Stack
+- State-based text management
+
+---
+
+### 6️⃣ TrainCompanion – Train Compartment Navigation
+**Data Structures Used:** LinkedList  
+**Location:**  
+📁 `traincompanion`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/traincompanion
+
+**Description:**
+Manages passenger movement and compartment navigation in a train.
+
+**Key Features:**
+- Dynamic passenger handling
+- Sequential compartment traversal
+- LinkedList-based data management
+
+---
+
+## 🧠 Key Concepts Learned
+- Choosing the right data structure for a real-world problem
+- Combining multiple data structures effectively
+- FIFO vs LIFO use cases
+- Circular traversal logic
+- Modular and maintainable Java code
+- Scenario-based problem solving
+
+---
+
+## 🛠️ Tech Stack
+- **Language:** Java  
+- **Concepts:** Data Structures & Algorithms, OOP  
+- **IDE:** IntelliJ IDEA / VS Code  
+
+---
+
+## 👤 Author
+**Saurabh Wanjari**  
+B.Tech – Computer Science  
+BridgeLabz Training – Java DSA  
+
+
+
+
 
 
