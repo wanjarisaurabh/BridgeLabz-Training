@@ -392,64 +392,62 @@ Each scenario is mapped to a suitable data structure to strengthen problem-solvi
 
 ---
 
-### 1️⃣ BookShelf – Library Organizer System
-**Data Structures Used:** HashMap + LinkedList  
-**Location:**  
-📁 `bookshelf`
 
-🔗 **Folder Link:**  
-https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/bookshelf
-
-**Description:**
-A library management system that organizes books genre-wise and maintains order dynamically.
-
-**Key Features:**
-- Genre-wise book storage using HashMap
-- Dynamic insertion and deletion using LinkedList
-- Book search and display functionality
-- Efficient catalog management
-
----
-
-### 2️⃣ BrowserBuddy – Browser History Manager
-**Data Structures Used:** Doubly LinkedList + Stack  
-**Location:**  
-📁 `browserbuddy`
-
-🔗 **Folder Link:**  
-https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/browserbuddy
-
-**Description:**
-Simulates browser navigation and closed-tab recovery.
-
-**Key Features:**
-- Back and forward navigation (Doubly LinkedList)
-- Closed tab tracking using Stack (LIFO)
-- Reopen recently closed tabs
-- Efficient memory usage
-
----
-
-### 3️⃣ AmbulanceRoute – Emergency Navigation System
-**Data Structures Used:** Circular LinkedList  
+###  AmbulanceRoute – Ambulance Route Tracker  
+**Data Structures Used:** Graph (Adjacency List) / Queue  
 **Location:**  
 📁 `ambulanceroute`
 
 🔗 **Folder Link:**  
 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/ambulanceroute
 
-**Description:**
-Manages emergency routing between hospital units using circular traversal.
+**Description:**  
+Tracks ambulance navigation and route traversal for emergency response.
 
-**Key Features:**
-- Circular hospital unit routing
-- Continuous patient flow handling
-- Dynamic unit availability
-- Round-robin traversal logic
+**Key Features:**  
+- Route calculation  
+- Fast traversal simulation  
+- Emergency path planning  
 
 ---
 
-### 4️⃣ CallCenter – Customer Call Management
+###  Bookshelf – Book Arrangement & Search System  
+**Data Structures Used:** ArrayList / LinkedList  
+**Location:**  
+📁 `bookshelf`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/bookshelf
+
+**Description:**  
+Manages books organization, searching, and tracking in a digital bookshelf.
+
+**Key Features:**  
+- Book insert/remove operations  
+- Search by title/author  
+- Organized book records  
+
+---
+
+###  BrowserBuddy – Browser Tab Management  
+**Data Structures Used:** Stack  
+**Location:**  
+📁 `browserbuddy`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/browserbuddy
+
+**Description:**  
+Simulates browser back/forward navigation using stack operations.
+
+**Key Features:**  
+- Back button simulation  
+- Forward button simulation  
+- Tab navigation tracking  
+
+---
+
+###  CallCenter – Call Management System  
 **Data Structures Used:** Queue  
 **Location:**  
 📁 `callcenter`
@@ -457,17 +455,125 @@ Manages emergency routing between hospital units using circular traversal.
 🔗 **Folder Link:**  
 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/callcenter
 
-**Description:**
-Simulates a call center where customer calls are handled in FIFO order.
+**Description:**  
+Manages call requests and agent assignment in a call center environment.
 
-**Key Features:**
-- Call enqueue and dequeue operations
-- FIFO-based customer handling
-- Real-time queue simulation
+**Key Features:**  
+- Customer call queue handling  
+- Agent allocation simulation  
+- Smooth call processing  
 
 ---
 
-### 5️⃣ TextEditor – Undo/Redo System
+###  EventManager – Event Registration & Attendance  
+**Data Structures Used:** ArrayList / LinkedList  
+**Location:**  
+📁 `eventmanager`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/eventmanager
+
+**Description:**  
+Handles user registrations and event flow management for events and programs.
+
+**Key Features:**  
+- Attendee registration system  
+- Attendance tracking  
+- Smooth event operations  
+
+---
+
+###  ExamCell – Exam Cell Allocation & Student Handling  
+**Data Structures Used:** LinkedList / HashMap  
+**Location:**  
+📁 `examcell`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/examcell
+
+**Description:**  
+Manages student assignment and exam-related operations using dynamic handling.
+
+**Key Features:**  
+- Student registration handling  
+- Easy record updates  
+- Dynamic data management  
+
+---
+
+###  ExamProctor – Exam Proctoring & Monitoring  
+**Data Structures Used:** Stack / LinkedList  
+**Location:**  
+📁 `examproctor`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/examproctor
+
+**Description:**  
+Simulates proctor monitoring system for exam halls and activity tracking.
+
+**Key Features:**  
+- Proctor monitoring workflow  
+- Student activity tracking  
+- Sequential hall traversal  
+
+---
+
+###  HospitalQueue – Hospital Patient Queue Management  
+**Data Structures Used:** Queue  
+**Location:**  
+📁 `hospitalqueue`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/hospitalqueue
+
+**Description:**  
+Manages patients in a hospital based on arrival priority and treatment order.
+
+**Key Features:**  
+- Patient enqueue/dequeue  
+- Fair treatment order handling  
+- Smooth patient flow simulation  
+
+---
+
+###  ParcelTracker – Parcel Tracking System  
+**Data Structures Used:** Queue / LinkedList  
+**Location:**  
+📁 `parcelTracker`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/parcelTracker
+
+**Description:**  
+Tracks parcel movement, status updates, and delivery flow using sequential processing.
+
+**Key Features:**  
+- Parcel enqueue/dequeue handling  
+- Delivery status updates  
+- Efficient parcel processing pipeline  
+
+---
+
+###  SmartCheckout – Smart Checkout Billing System  
+**Data Structures Used:** Stack / Queue  
+**Location:**  
+📁 `smartcheckout`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/smartcheckout
+
+**Description:**  
+Simulates checkout counters for billing and customer item processing.
+
+**Key Features:**  
+- Billing queue simulation  
+- Item scanning & total calculation  
+- Faster sequential transaction handling  
+
+---
+
+###  TextEditor – Text Editor Undo/Redo Manager  
 **Data Structures Used:** Stack  
 **Location:**  
 📁 `texteditor`
@@ -475,17 +581,17 @@ Simulates a call center where customer calls are handled in FIFO order.
 🔗 **Folder Link:**  
 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/texteditor
 
-**Description:**
-Implements basic text editor operations with undo and redo functionality.
+**Description:**  
+Implements a text editor with undo/redo functionality using stacks.
 
-**Key Features:**
-- Undo operation using Stack
-- Redo operation using Stack
-- State-based text management
+**Key Features:**  
+- Undo operations  
+- Redo operations  
+- Efficient edit history tracking  
 
 ---
 
-### 6️⃣ TrainCompanion – Train Compartment Navigation
+###  TrainCompanion – Train Compartment Navigation  
 **Data Structures Used:** LinkedList  
 **Location:**  
 📁 `traincompanion`
@@ -493,13 +599,234 @@ Implements basic text editor operations with undo and redo functionality.
 🔗 **Folder Link:**  
 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/traincompanion
 
-**Description:**
+**Description:**  
 Manages passenger movement and compartment navigation in a train.
 
-**Key Features:**
-- Dynamic passenger handling
-- Sequential compartment traversal
-- LinkedList-based data management
+**Key Features:**  
+- Dynamic passenger handling  
+- Sequential compartment traversal  
+- LinkedList-based data management  
 
 ---
+
+###  ZipZipMart – Mart Billing & Customer Flow  
+**Data Structures Used:** Queue / ArrayList  
+**Location:**  
+📁 `zipzipmart`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/zipzipmart
+
+**Description:**  
+Handles customer line processing and billing system of a smart mart.
+
+**Key Features:**  
+- Customer queue management  
+- Fast billing counter simulation  
+- Organized customer checkout flow  
+
+---
+
+###  ExamProctor – Exam Proctoring & Monitoring  
+**Data Structures Used:** Stack / LinkedList  
+**Location:**  
+📁 `examproctor`
+
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-dsa-practice/dsa-practice/scenario-based/DSAScenarioBasedPractice/src/com/examproctor
+
+**Description:**  
+Simulates proctor monitoring system for exam halls and activity tracking.
+
+**Key Features:**  
+- Proctor monitoring workflow  
+- Student activity tracking  
+- Sequential hall traversal  
+
+
+
+## Java OOPS – Scenario Based Practice
+
+✅ **Branch:** `java-oops-practice`  
+✅ **Path:** `java-oops-practice/scenario-based`
+
+---
+
+
+### 1️⃣4️⃣ LoanBuddy – Loan Approval Automation  
+**Location:** 📁 `loanbuddy`  
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/loanbuddy
+
+**Short Description:**  
+Automates loan approval and EMI calculation based on applicant eligibility.
+
+**Key Features:**  
+- Applicant eligibility check (credit score, income)  
+- EMI calculation using formula  
+- Inheritance for loan types (Home/Auto)  
+- Polymorphic EMI logic per loan type  
+
+---
+
+### 1️⃣5️⃣ BookBazaar – Digital Bookstore System  
+**Location:** 📁 `bookbazaar`  
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/bookbazaar
+
+**Short Description:**  
+Manages bookstore inventory, orders, and discount logic.
+
+**Key Features:**  
+- Book inventory & stock handling  
+- Order creation with multiple books  
+- Discounts using interface method  
+- Polymorphism for EBook vs PrintedBook  
+
+---
+
+### 1️⃣6️⃣ ParkEase – Smart Parking Management System  
+**Location:** 📁 `parkease`  
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/parkease
+
+**Short Description:**  
+Assigns parking slots and calculates parking charges for vehicles.
+
+**Key Features:**  
+- Slot booking & occupancy tracking  
+- Vehicle-based charge calculation  
+- Polymorphism for Car/Bike/Truck  
+- Encapsulated booking records  
+
+---
+
+### 1️⃣7️⃣ MediStore – Pharmacy Inventory & Sales System  
+**Location:** 📁 `medistore`  
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/medistore
+
+**Short Description:**  
+Tracks medicine stock, expiry, and sales operations.
+
+**Key Features:**  
+- Medicine inventory management  
+- Expiry checking logic  
+- Inheritance for Tablet/Syrup/Injection  
+- Polymorphic expiry handling  
+
+---
+
+### 1️⃣8️⃣ TourMate – Travel Itinerary Planner  
+**Location:** 📁 `tourmate`  
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/tourmate
+
+**Short Description:**  
+Creates trip packages with booking and budget calculations.
+
+**Key Features:**  
+- Trip package creation with services  
+- Total budget calculation (hotel + transport + activities)  
+- Inheritance for Domestic/International trip  
+- Polymorphic booking behavior  
+
+---
+
+### 1️⃣9️⃣ Artify – Digital Art Marketplace  
+**Location:** 📁 `artify`  
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/artify
+
+**Short Description:**  
+Supports artwork purchase and licensing in a marketplace.
+
+**Key Features:**  
+- Artwork listing with license type  
+- Wallet deduction on purchase  
+- Inheritance for DigitalArt vs PrintArt  
+- Polymorphic licensing rules  
+
+---
+
+### 2️⃣0️⃣ FoodLoop – Restaurant Ordering System  
+**Location:** 📁 `foodloop`  
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/foodloop
+
+**Short Description:**  
+Manages food ordering, stock, and discount logic.
+
+**Key Features:**  
+- Food item availability handling  
+- Order total calculation with discount  
+- Inheritance for VegItem / NonVegItem  
+- Polymorphic discount application  
+
+---
+
+### 2️⃣1️⃣ SkillForge – Online Learning Portal  
+**Location:** 📁 `skillforge`  
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/skillforge
+
+**Short Description:**  
+Handles course creation, enrollment, progress, and certification.
+
+**Key Features:**  
+- Courses with modules & rating  
+- Student/Instructor inheritance  
+- Certificate generation interface  
+- Polymorphic certificate formats  
+
+---
+
+### 2️⃣2️⃣ HomeNest – Smart Home Device Manager  
+**Location:** 📁 `homenest`  
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/homenest
+
+**Short Description:**  
+Controls smart devices like lights, cameras, locks, and thermostats.
+
+**Key Features:**  
+- Device base class + subclasses  
+- Interface-based control methods  
+- Encapsulated device status  
+- Polymorphic reset behavior  
+
+---
+
+### 2️⃣3️⃣ BudgetWise – Personal Finance Tracker  
+**Location:** 📁 `budgetwise`  
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/budgetwise
+
+**Short Description:**  
+Tracks transactions and generates budget reports.
+
+**Key Features:**  
+- Income/expense tracking by category  
+- Overspend detection system  
+- Monthly vs Annual budget inheritance  
+- Polymorphic reporting format  
+
+---
+
+### 2️⃣4️⃣ GameBox – Mobile Game Distribution Platform  
+**Location:** 📁 `gamebox`  
+🔗 **Folder Link:**  
+https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/gamebox
+
+**Short Description:**  
+Manages mobile games with download and demo features.
+
+**Key Features:**  
+- Game download & demo system  
+- Owned games list per user  
+- Inheritance for game genres  
+- Polymorphic demo behavior  
+
+---
+
 
