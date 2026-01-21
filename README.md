@@ -8,67 +8,69 @@ This repository documents my **day-wise learning, hands-on practice, and code su
 ## 📁 Repository Structure
 
 
-```text
+```bash
 BridgeLabz-Training/
 │
-├── core-java-practice/                (Branch: core-java-practice)
-│   │
+├── core-java-practice/
 │   ├── gcr-codebase/
-│   │   ├── programming-elements/
-│   │   ├── control-flows/
-│   │   ├── arrays/
-│   │   ├── java-strings/
-│   │   ├── java-methods/
-│   │   ├── builtin-functions/
-│   │   └── extra-questions/
+│   │   ├── prerequisites/               # Basic Java programs
+│   │   ├── programming-elements/        # Java programming elements
+│   │   ├── control-flows/               # If-else, loops, switch
+│   │   ├── arrays/                      # Array operations
+│   │   ├── methods/                     # Method practice
+│   │   ├── strings/                     # String manipulation
+│   │   └── Extras/                      # Built-in methods
 │   │
-│   ├── leet-code-codebase/
-│   │   
-│   ├── scenario-based/
-│   │  
-│   ├── .gitignore
-│   └── README.md
+│   ├── leet-code-codebase/              # LeetCode solutions
+│   └── scenario-based-codebase/         # Real-world problems
 │
-├── java-oops-practice/                (Branch: java-oops-practice)
-│   │
-│   ├── gcr-codebase/
-│   │   └── JavaOopsConcept/
-│   │       └── src/
-│   │           └── com/
-│   │               ├── classandobject/
-│   │               ├── javaconstructors/
-│   │               ├── inbuiltfunction/
-│   │               ├── objectmodeling/
-│   │               ├── inheritance/
-│   │               ├── encapsulationandpolymorphism/
-│   │               └── abstractionandinterface/
-│   │
-│   ├── scenario-based/
-│   │  
-│   ├── .gitignore
-│   └── README.md
-│
-├── java-dsa-practice/                 (Branch: java-dsa-practice)
-│   │
-│   ├── dsa-practice/
+├── java-oops-practice/
+│   ├── java-oops-practice/
 │   │   ├── gcr-codebase/
-│   │   │   └── JavaDsaConcepts/
+│   │   │   └── JavaOopsConcepts/
 │   │   │       └── src/
 │   │   │           └── com/
-│   │   │               ├── arrays/
-│   │   │               ├── linkedlist/
-│   │   │               ├── stack/
-│   │   │               ├── queue/
-│   │   │               └── hashmap/
+│   │   │               ├── classandobject/      # Procedural vs OOP, fundamentals
+│   │   │               ├── constructor/         # Constructor, access modifiers
+│   │   │               ├── inbuiltfunctions/    # Keywords, instance vs class members
+│   │   │               ├── objectmodeling/      # Diagrams, relationships, communication
+│   │   │               ├── inheritance/         # Types, method overriding, access modifiers
+│   │   │               └── encapsulation/       # Abstract class, interface, & polymorphism
 │   │   │
-│   │   └── scenario-based/
-│   ├── .gitignore
-│   └── README.md
+│   ├── leet-code-codebase/              # LeetCode solutions
+│   └── scenario-based-codebase/         # Real-world problems
 │
-└── README.md                          (Main overview – default branch)
+├── java-dsa-practice/
+│   ├── gcr-codebase/
+│   │   └── DSAConcepts/
+│   │       └── src/
+│   │           └── com/
+│   │               ├── linkedlists/             # singly, doubly & circular
+│   │               ├── stacksandqueues/         # LIFO (stack) and FIFO (queue)
+│   │               ├── hashmapsandhashfunctions/ # Key-Value pairs
+│   │               ├── sorting/                 # Sorting algorithms
+│   │               ├── linearandbinarysearch/   # Searching algorithms
+│   │               └── runtimeanalysis/         # Runtime Analysis & Big-O Notation
+│   │
+│   ├── leet-code-codebase/              # LeetCode solutions
+│   └── scenario-based-codebase/         # Real-world problems
+│
+├── java-collection-practice/
+│   ├── java-collections-practice/
+│   │   ├── gcr-codebase/
+│   │   │   └── JavaCollectionsProblem/
+│   │   │       └── src/
+│   │   │           └── com/
+│   │   │               ├── generics/            # Java generics basics
+│   │   │               ├── collections/         # List, Set, Map and Queue Interfaces
+│   │   │               └── streams/             # I/O streams, buffering, and serialization
+│   │   │
+│   ├── leet-code-codebase/              # LeetCode solutions
+│   └── scenario-based-codebase/         # Real-world problems
+│
+└── README.md
 
 ```
-
 ---
 
 # 📘 Week 1: Git, GitHub & Core Java Fundamentals
