@@ -830,28 +830,165 @@ Manages passenger movement and compartment navigation in a train.
 
 ---
 
-## 🧠 Key Concepts Learned
-- Choosing the right data structure for a real-world problem
-- Combining multiple data structures effectively
-- FIFO vs LIFO use cases
-- Circular traversal logic
-- Modular and maintainable Java code
-- Scenario-based problem solving
+
+## 🔹 22-Jan-2026: Exception Handling & Regular Expressions (Regex)
+
+### Topics Covered
+- try-catch, multiple catch blocks, finally
+- throw vs throws
+- Custom Exceptions & Exception Propagation
+- Regex validation, extraction, and text manipulation
+
+### 🔗 Exception Handling Programs  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-generics-practice/java-generics-practice/gcr-codebase/genericsPractice/src/com/exceptionhandling
+
+**Programs:**
+- Multiple Catch Blocks
+- Try-With-Resources
+- Throw vs Throws
+- Finally Block
+- Nested Try-Catch
+- Custom Exception (InsufficientBalanceException)
+- Bank Transaction System
 
 ---
 
-## 🛠️ Tech Stack
-- **Language:** Java  
-- **Concepts:** Data Structures & Algorithms, OOP  
-- **IDE:** IntelliJ IDEA / VS Code  
+### 🔗 Regular Expression Programs  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-generics-practice/java-generics-practice/gcr-codebase/genericsPractice/src/com/regex
+
+**Validation:**
+- Username, License Plate
+- Hex Color Code
+- IPv4 Address
+- Credit Card
+- SSN
+
+**Extraction & Modification:**
+- Email, Dates, URLs
+- Capitalized words
+- Replace spaces, censor words
 
 ---
 
-## 👤 Author
-**Saurabh Wanjari**  
-B.Tech – Computer Science  
-BridgeLabz Training – Java DSA  
+## 🔹 23-Jan-2026: JUnit Testing & TDD
 
+### Topics Covered
+- JUnit 5 Basics
+- Test Lifecycle Annotations
+- Assertions
+- Test Driven Development
+
+### 🔗 JUnit Practice  
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-collections-practice/java-generics-practice/gcr-codebase/genericsPractice/src/com/junit
+
+**Problems Implemented:**
+1. BankAccount  
+2. PasswordValidator  
+3. TemperatureConverter  
+4. DateFormatter  
+5. UserRegistration  
+6. Calculator  
+7. Database Connectivity  
+8. File Processing  
+9. String Utilities  
+10. Long Running Process  
+
+---
+
+## 🌍 Real-World Scenario-Based Problems  
+(Collections + IO + Regex)
+
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-collections-practice/java-generics-practice/scenario-based/collections_scenario_based/src/com
+
+- ResumeAnalyzer
+- TravelLog
+- FeedbackGuru
+- CodeRepoCleaner
+- ExamScanner
+
+---
+
+## 🔹 24-Jan-2026: Java Reflection & Annotations
+
+### Topics Covered
+- Reflection API
+- Dynamic object creation
+- Annotation processing
+- Runtime validation
+
+### 🔗 Code Links
+- Reflection:  
+  https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-collections-practice/java-generics-practice/gcr-codebase/genericsPractice/src/com/reflections
+
+- Annotations:  
+  https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-collections-practice/java-generics-practice/gcr-codebase/genericsPractice/src/com/annotations
+
+**Custom Annotations:**
+- @LogExecutionTime
+- @RoleAllowed
+- @JsonField
+- @CacheResult
+- @BugReport
+- @Todo
+- @TaskInfo
+
+---
+
+## 🔹 25-Jan-2026: Java IO & CSV Handling
+
+### Topics Covered
+- InputStream / OutputStream
+- File handling
+- CSV parsing
+- OpenCSV library
+
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-ioprograming-practice/java-ioprogramming-practice/gcr-codebase/ioprogramming/src/com/csvhandling
+
+---
+
+## 🔹 27–28 Jan 2026: Advanced IO, JSON & Collections
+
+### JSON Handling
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-ioprograming-practice/java-ioprogramming-practice/gcr-codebase/ioprogramming/src/com/jsonhandling
+
+**Includes:**
+- JSON ↔ XML
+- CSV → JSON
+- JSON filtering
+- Email validation
+- IPL Censor Analyzer
+
+### Advanced Scenario-Based Problems
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java-collections-practice/java-generics-practice/scenario-based/collections_scenario_based/src/com
+
+- MedInventory
+- ChatLogParser
+- SongVault
+- ExamResultUploader
+- DealTracker
+
+---
+
+## 📅 Week 6 – Java 8 Programming
+
+---
+
+## 🔹 29-Jan-2026: Lambda & Functional Interfaces
+- Predicate, Function, Consumer, Supplier
+
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java8-programming-practice/java8_programming_practice/src/com/functionalinterface
+
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8_programming_practice/src/com/methodreferences
+
+---
+
+## 🔹 30-Jan-2026: Stream API & Optional
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8_programming_practice/src/com/streams
+
+---
+
+## 🔹 31-Jan-2026: Java 8 Scenario-Based Problems
+👉 https://github.com/wanjarisaurabh/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-codebase/java8_programming_practice/src/com/scenario
 
 
 
