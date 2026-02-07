@@ -11,64 +11,91 @@ This repository documents my **day-wise learning, hands-on practice, and code su
 ```bash
 BridgeLabz-Training/
 │
-├── core-java-practice/
+├── core-java-practice/                     (Branch: core-java-practice)
 │   ├── gcr-codebase/
-│   │   ├── prerequisites/               # Basic Java programs
-│   │   ├── programming-elements/        # Java programming elements
-│   │   ├── control-flows/               # If-else, loops, switch
-│   │   ├── arrays/                      # Array operations
-│   │   ├── methods/                     # Method practice
-│   │   ├── strings/                     # String manipulation
-│   │   └── Extras/                      # Built-in methods
+│   │   ├── prerequisites/                 # Basic Java programs
+│   │   ├── programming-elements/          # Java programming elements
+│   │   ├── control-flows/                 # If-else, loops, switch
+│   │   ├── arrays/                        # Array operations
+│   │   ├── methods/                       # Method practice
+│   │   ├── strings/                       # String manipulation
+│   │   └── extras/                        # Built-in methods
 │   │
-│   ├── leet-code-codebase/              # LeetCode solutions
-│   └── scenario-based-codebase/         # Real-world problems
+│   ├── leet-code-codebase/                # LeetCode solutions
+│   └── scenario-based-codebase/           # Real-world problems
 │
-├── java-oops-practice/
+├── java-oops-practice/                    (Branch: java-oops-practice)
 │   ├── java-oops-practice/
 │   │   ├── gcr-codebase/
 │   │   │   └── JavaOopsConcepts/
 │   │   │       └── src/
 │   │   │           └── com/
-│   │   │               ├── classandobject/      # Procedural vs OOP, fundamentals
-│   │   │               ├── constructor/         # Constructor, access modifiers
-│   │   │               ├── inbuiltfunctions/    # Keywords, instance vs class members
-│   │   │               ├── objectmodeling/      # Diagrams, relationships, communication
-│   │   │               ├── inheritance/         # Types, method overriding, access modifiers
-│   │   │               └── encapsulation/       # Abstract class, interface, & polymorphism
-│   │   │
-│   ├── leet-code-codebase/              # LeetCode solutions
-│   └── scenario-based-codebase/         # Real-world problems
+│   │   │               ├── classandobject/      # OOP fundamentals
+│   │   │               ├── constructor/         # Constructors & access modifiers
+│   │   │               ├── inbuiltfunctions/    # Keywords & class members
+│   │   │               ├── objectmodeling/      # UML & relationships
+│   │   │               ├── inheritance/         # Inheritance & overriding
+│   │   │               └── encapsulation/       # Abstraction, interfaces, polymorphism
+│   │
+│   ├── leet-code-codebase/                # LeetCode solutions
+│   └── scenario-based-codebase/           # Real-world problems
 │
-├── java-dsa-practice/
+├── java-dsa-practice/                     (Branch: java-dsa-practice)
 │   ├── gcr-codebase/
 │   │   └── DSAConcepts/
 │   │       └── src/
 │   │           └── com/
-│   │               ├── linkedlists/             # singly, doubly & circular
-│   │               ├── stacksandqueues/         # LIFO (stack) and FIFO (queue)
-│   │               ├── hashmapsandhashfunctions/ # Key-Value pairs
+│   │               ├── linkedlists/             # Singly, doubly, circular
+│   │               ├── stacksandqueues/         # Stack (LIFO) & Queue (FIFO)
+│   │               ├── hashmapsandhashfunctions/# Hashing & maps
 │   │               ├── sorting/                 # Sorting algorithms
 │   │               ├── linearandbinarysearch/   # Searching algorithms
-│   │               └── runtimeanalysis/         # Runtime Analysis & Big-O Notation
+│   │               └── runtimeanalysis/         # Big-O & performance
 │   │
-│   ├── leet-code-codebase/              # LeetCode solutions
-│   └── scenario-based-codebase/         # Real-world problems
+│   ├── leet-code-codebase/                # LeetCode solutions
+│   └── scenario-based-codebase/           # Real-world problems
 │
-├── java-collection-practice/
+├── java-collection-practice/              (Branch: java-collection-practice)
 │   ├── java-collections-practice/
 │   │   ├── gcr-codebase/
 │   │   │   └── JavaCollectionsProblem/
 │   │   │       └── src/
 │   │   │           └── com/
-│   │   │               ├── generics/            # Java generics basics
-│   │   │               ├── collections/         # List, Set, Map and Queue Interfaces
-│   │   │               └── streams/             # I/O streams, buffering, and serialization
-│   │   │
-│   ├── leet-code-codebase/              # LeetCode solutions
-│   └── scenario-based-codebase/         # Real-world problems
+│   │   │               ├── generics/            # Java Generics
+│   │   │               ├── collections/         # List, Set, Map, Queue
+│   │   │               └── streams/             # IO streams & serialization
+│   │
+│   ├── leet-code-codebase/                # LeetCode solutions
+│   └── scenario-based-codebase/           # Real-world problems
+│
+├── java-iostreams/                        (Branch: java-iostreams)
+│   ├── gcr-codebase/
+│   │   └── JavaIOStreamsConcepts/
+│   │       └── src/
+│   │           └── com/
+│   │               ├── csvdata/                 # CSV read/write & OpenCSV
+│   │               └── jsondata/                # JSON handling & IPL Censor Analyzer
+│   │
+│   └── scenario-based/
+│       └── ioprogramming/               
+│
+├── java8-programming-practice/            (Branch: java8-programming-practice)
+│   ├── gcr-codebase/
+│   │   └── Java8Concepts/
+│   │       └── src/
+│   │           └── com/
+│   │               ├── lambdas/                  # Lambda expressions
+│   │               ├── methodreferences/         # Method references
+│   │               ├── interfaces/               # Functional interfaces
+│   │               ├── streams/                  # Stream API
+│   │               ├── collectors/               # Collectors API
+│   │               └── workshop/                 # Mini projects
+│   │
+│   ├── leet-code-codebase/                # LeetCode solutions
+│   └── scenario-based-codebase/           # Real-world problems
 │
 └── README.md
+
 
 ```
 ---
