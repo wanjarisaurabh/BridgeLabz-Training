@@ -1,0 +1,105 @@
+UC 5.1> GENERATE BILL FOR VISIT - Calculate total with consultation fee
+
+-- Insert bill with doctor's consultation fee + additional charges
+INSERT INTO bills (visit_id, patient_id, doctor_id, consultation_fee, additional_charges, total_amount, payment_status, bill_date)
+SELECT 
+    v.visit_id,
+    v.patient_id,
+    v.doctor_id,
+    d.consultation_fee,
+    250.00 AS additional_charges,
+    (d.consultation_fee + 250.00) AS total_amount,
+    'UNPAID' AS payment_status,
+    CURDATE() AS bill_date
+FROM visits v
+JOIN doctors d ON v.doctor_id = d.doctor_id
+WHERE v.visit_id = 789;
+
+=================================
+
+UC 5.2> RECORD PAYMENT - Update bill and insert transaction
+
+START TRANSACTION;
+
+-- Update bill payment status
+UPDATE bills
+SET payment_status = 'PAID',
+    payment_date = CURDATE(),
+    payment_mode = 'CASH'
+WHERE bill_id = 123;
+
+-- Insert payment transaction record
+INSERT INTO payment_transactions (bill_id, amount_paid, payment_mode, transaction_date)
+SELECT bill_id, total_amount, 'CASH', CURDATE()
+FROM bills
+WHERE bill_id = 123;
+
+COMMIT;
+
+=========================================
+
+UC 5.3> VIEW OUTSTANDING BILLS - Get unpaid bills with patient details
+
+-- Get all unpaid bills with patient info
+SELECT 
+    b.bill_id,
+    b.bill_date,
+    p.name AS patient_name,
+    p.phone,
+    b.total_amount
+FROM bills b
+JOIN patients p ON b.patient_id = p.patient_id
+WHERE b.payment_status = 'UNPAID'
+ORDER BY b.bill_date;
+
+-- Summary by patient (COUNT and SUM)
+SELECT 
+    p.name AS patient_name,
+    COUNT(b.bill_id) AS unpaid_bills,
+    SUM(b.total_amount) AS total_due
+FROM bills b
+JOIN patients p ON b.patient_id = p.patient_id
+WHERE b.payment_status = 'UNPAID'
+GROUP BY p.patient_id, p.name
+ORDER BY total_due DESC;
+
+==============================
+
+UC 5.4> GENERATE REVENUE REPORT - Aggregate with date range and HAVING
+
+-- Daily revenue report (BETWEEN date range)
+SELECT 
+    b.bill_date,
+    COUNT(b.bill_id) AS total_bills,
+    SUM(b.total_amount) AS total_revenue
+FROM bills b
+WHERE b.bill_date BETWEEN '2026-02-01' AND '2026-02-28'
+GROUP BY b.bill_date
+ORDER BY b.bill_date;
+
+-- Revenue by doctor (with HAVING clause)
+SELECT 
+    d.name AS doctor_name,
+    d.specialty,
+    COUNT(b.bill_id) AS consultations,
+    SUM(b.total_amount) AS total_revenue
+FROM bills b
+JOIN doctors d ON b.doctor_id = d.doctor_id
+WHERE b.bill_date BETWEEN '2026-02-01' AND '2026-02-28'
+GROUP BY d.doctor_id, d.name, d.specialty
+HAVING total_revenue > 5000
+ORDER BY total_revenue DESC;
+
+-- Revenue by specialty
+SELECT 
+    d.specialty,
+    COUNT(b.bill_id) AS total_bills,
+    SUM(b.total_amount) AS total_revenue
+FROM bills b
+JOIN doctors d ON b.doctor_id = d.doctor_id
+WHERE b.bill_date BETWEEN '2026-02-01' AND '2026-02-28'
+GROUP BY d.specialty
+HAVING total_revenue > 10000
+ORDER BY total_revenue DESC;
+
+================================
