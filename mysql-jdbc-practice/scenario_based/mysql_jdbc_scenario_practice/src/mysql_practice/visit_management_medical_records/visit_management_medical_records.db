@@ -1,0 +1,48 @@
+UC 4.1> RECORD PATIENT VISIT - Insert visit record and update appointment status
+
+START TRANSACTION;
+
+-- Insert visit record
+INSERT INTO visits (patient_id, doctor_id, appointment_id, visit_date, diagnosis, prescription, notes)
+VALUES (101, 5, 234, '2026-02-08', 
+        'Seasonal Flu', 
+        'Paracetamol 500mg', 
+        'Take rest and drink fluids');
+
+-- Update appointment status
+UPDATE appointments
+SET status = 'COMPLETED'
+WHERE appointment_id = 234;
+
+COMMIT;
+
+=================================
+
+UC 4.2> VIEW PATIENT MEDICAL HISTORY - JOIN query across tables
+
+-- Get medical history for a patient
+SELECT 
+    v.visit_date,
+    d.name AS doctor_name,
+    d.specialty,
+    v.diagnosis,
+    v.prescription,
+    v.notes
+FROM visits v
+JOIN doctors d ON v.doctor_id = d.doctor_id
+JOIN appointments a ON v.appointment_id = a.appointment_id
+WHERE v.patient_id = 101
+ORDER BY v.visit_date DESC;
+
+=========================================
+
+UC 4.3> ADD PRESCRIPTION DETAILS - Batch INSERT for multiple medicines
+
+-- Insert multiple prescriptions for a visit
+INSERT INTO prescriptions (visit_id, medicine_name, dosage, duration)
+VALUES 
+    (456, 'Paracetamol', '500mg', '5 days'),
+    (456, 'Cetirizine', '10mg', '7 days'),
+    (456, 'Vitamin C', '500mg', '30 days');
+
+==============================
