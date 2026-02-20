@@ -1,0 +1,68 @@
+> [[doctors table]]
+
+CREATE TABLE doctors (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    contact VARCHAR(10) UNIQUE NOT NULL,
+    email VARCHAR(50) UNIQUE,
+    consultation_fee DECIMAL(10,2) NOT NULL DEFAULT 500,
+    specialty_id INT NOT NULL,
+    is_active BOOLEAN DEFAULT TRUE,
+    CONSTRAINT fk_doctor_specialty
+        FOREIGN KEY (specialty_id)
+        REFERENCES specialties(id)
+);
+
+
+========================================================
+
+> [[specialties table]]
+CREATE TABLE specialization(
+	id int PRIMARY KEY,
+    speciality VARCHAR(30) NOT NULL
+)
+
+========================================================
+
+UC-2.1: Add a new doctor to the system
+
+INSERT INTO doctors
+(name, email, contact, consultation_fee, specialization)
+VALUES
+('Dr. Mehta', 'mehta@gmail.com', '9000011111', 500, 1);
+
+
+=========================================================
+
+UC-2.2: Update a doctor's Specialization with trasaction management
+
+Start TRANSACTION;
+SELECT id INTO @tempId FROM specialization where speciality="General Medicine";
+Update doctors SET specialization=@tempId WHERE id=3;
+COMMIT;
+
+=========================================================
+
+UC2.3: Retrieve all doctors along with their specialization and upcoming appointments
+SELECT
+    d.id AS doctor_id,
+    d.name AS doctor_name,
+    s.speciality AS specialty,
+    a.appointment_date,
+    a.appoitment_time,
+    a.status
+FROM doctors d
+JOIN specialization s
+    ON d.specialization = s.id
+LEFT JOIN appointments a
+    ON d.id = a.doctor_id
+WHERE s.speciality = 'Cardiology'
+ORDER BY a.appointment_date, a.appoitment_time;
+
+=========================================================
+
+UC-2.4: Deactivate a doctor from the system
+
+UPDATE doctors SET is_active=false  WHERE id=3;
+
+=== ========================================================
