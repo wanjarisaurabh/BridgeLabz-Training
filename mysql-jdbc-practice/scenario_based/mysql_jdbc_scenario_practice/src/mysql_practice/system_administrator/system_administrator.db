@@ -1,0 +1,2 @@
+>UC 6.1 >Flow: CRUD operations on specialties reference table. Check foreign key constraints before DELETE using COUNT subquery
+
