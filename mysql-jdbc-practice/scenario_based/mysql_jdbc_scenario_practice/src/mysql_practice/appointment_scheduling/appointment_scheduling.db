@@ -1,0 +1,90 @@
+UC 3.1> CHECK FOR DOCTOR AVAILABILITY ADN THEN INSERT INTO THE APPOINTMENT TABLE
+
+Select count(*) 
+from appointments 
+where  doctor_id=2 
+and appointment_date="2026-01-24" 
+AND appointment_time="10:00:00"; 
+
+INSERT INTO appointments(patient_id, doctor_id, appointment_date, appoitment_time, status)
+values(1,2,"2026-01-24","10:00:00","scheduled");
+
+=================================
+
+UC 3.2> Get appointment status wise count for a specific doctor on a given date
+
+SELECT
+    appoitment_time AS time_slot,
+    COUNT(*) AS booked_count
+FROM appointments
+WHERE doctor_id = 2
+  AND appointment_date = '2026-02-10'
+  AND status = 'SCHEDULED'
+GROUP BY appoitment_time
+ORDER BY appoitment_time;
+
+=========================================
+UC 3.3 Update and audit appointment status with transaction management
+
+CREATE TABLE appointment_audit (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    appointment_id INT NOT NULL,
+    action VARCHAR(20),
+    action_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+START TRANSACTION;
+
+-- Step 1: Cancel the appointment
+UPDATE appointments
+SET status = 'CANCELLED'
+WHERE appointment_id = 10;
+
+-- Step 2: Log cancellation in audit table
+INSERT INTO appointment_audit
+(appointment_id, action)
+VALUES
+(10, 'CANCELLED');
+
+-- Step 3: Finalize
+COMMIT;
+
+
+==============================
+
+UC 3.4>CHECK FOR AVAILABLITY AND THEN Update APPOINTMENT
+
+
+Update :
+START TRANSACTION;
+UPDATE appointments a
+SET 
+    a.doctor_id = 2,
+    a.appointment_date = '2026-02-12',
+    a.appoitment_time = '11:00:00'
+WHERE a.appointment_id = 10
+  AND NOT EXISTS (
+        SELECT 1
+        FROM appointments b
+        WHERE b.doctor_id = 2
+          AND b.appointment_date = '2026-02-12'
+          AND b.appoitment_time = '11:00:00'
+          AND b.status = 'SCHEDULED'
+          AND b.appointment_id <> 10
+  );
+
+COMMIT;
+
+================================
+
+UC 3.5> Execute multi-table JOIN (appointments, patients, doctors) filtered by date. Order by appointment_time using ORDER BY clause.
+
+Select a.appointment_id, p.name, d.name, a.appointment_date,a.appointment_time
+from appointments a
+JOIN patient_info p
+on p.id=patient_id
+Left JOIN doctors d
+on a.doctor_id=d.id
+where appointment_date="2026-02-01"
+ORDER BY a.appointment_time;
